@@ -24,7 +24,6 @@
     <p><strong>Status:</strong> {{ ucfirst($ticket['status']) }}</p>
     <p><strong>Price:</strong> {{ $ticket['price'] }} €</p>
     <p><strong>Created at:</strong> {{ $ticket['created_at'] }}</p>
-
     <br>
 
     <a href="{{ url('/tickets') }}">Back</a>

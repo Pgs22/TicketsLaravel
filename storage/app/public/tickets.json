@@ -97,5 +97,23 @@
         "status": "Open",
         "price": 100,
         "created_at": "2025-12-17 16:20:53"
+    },
+    {
+        "id": 12,
+        "title": "ticket",
+        "description": "descripcion",
+        "priority": "low",
+        "status": "Open",
+        "price": 20,
+        "created_at": "2026-01-23 17:54:29"
+    },
+    {
+        "id": 13,
+        "title": "hh",
+        "description": "hh",
+        "priority": "high",
+        "status": "Open",
+        "price": 100,
+        "created_at": "2026-01-23 17:55:04"
     }
 ]
