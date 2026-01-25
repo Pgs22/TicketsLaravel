@@ -19,6 +19,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/debug', function () {
+    return response()->json([
+        "os" => "win32",
+        "arch" => "x64",
+        "php_version" => "8.3.28",
+        "laravel_version" => "10.33.0",
+        "php_command" => "\"C:\\xampp\\php\\php.exe\""
+    ]);
+});
+
 Route::prefix('tickets')->group(function () {
     Route::get('/', [TicketController::class, 'index'])
         ->middleware('validate.ticket.params');

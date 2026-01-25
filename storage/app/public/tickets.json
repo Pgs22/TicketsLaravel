@@ -103,7 +103,7 @@
         "title": "ticket",
         "description": "descripcion",
         "priority": "low",
-        "status": "Open",
+        "status": "open",
         "price": 20,
         "created_at": "2026-01-23 17:54:29"
     },
@@ -112,7 +112,7 @@
         "title": "hh",
         "description": "hh",
         "priority": "high",
-        "status": "Open",
+        "status": "open",
         "price": 100,
         "created_at": "2026-01-23 17:55:04"
     }
