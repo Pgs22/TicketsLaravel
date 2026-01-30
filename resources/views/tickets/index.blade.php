@@ -37,7 +37,7 @@
         <tr>
             <td>{{ $ticket['id'] }}</td>
             <td>{{ $ticket['title'] }}</td>
-            <td>{{ ucfirst($ticket['status']) }}</td>
+            <td>{{ ucfirst($ticket['priority']) }}</td>
             <td>{{ ucfirst($ticket['status']) }}</td>
             <td>{{ $ticket['price'] }} €</td>
             <td class="actions">
