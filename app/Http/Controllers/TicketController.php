@@ -103,7 +103,7 @@ class TicketController extends Controller
         return redirect("/tickets/$id");
     }
 
-    public function destroy($id)
+    public function delete($id)
     {
         $tickets = self::readTickets();
         $ticketIndex = array_search($id, array_column($tickets, 'id'));

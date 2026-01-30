@@ -36,15 +36,6 @@
         "created_at": "2025-01-12 08:30:00"
     },
     {
-        "id": 5,
-        "title": "Update legal text",
-        "description": "Modify the legal notice text according to new regulations.",
-        "priority": "low",
-        "status": "closed",
-        "price": 20,
-        "created_at": "2025-01-12 12:10:00"
-    },
-    {
         "id": 6,
         "title": "Slow page loading",
         "description": "Several pages take too long to load.",
@@ -70,15 +61,6 @@
         "status": "in_progress",
         "price": 100,
         "created_at": "2025-01-14 08:55:00"
-    },
-    {
-        "id": 9,
-        "title": "Add new user role",
-        "description": "Request to add a new role to the user management system.",
-        "priority": "medium",
-        "status": "closed",
-        "price": 50,
-        "created_at": "2025-01-14 15:30:00"
     },
     {
         "id": 10,
