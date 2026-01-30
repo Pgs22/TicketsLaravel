@@ -60,7 +60,7 @@ class TicketController extends Controller
             'title' => $request->input('title'),
             'description' => $request->input('description'),
             'priority' => $request->input('priority'),
-            'status' => 'open', //Corregido el nombre y cambio los nuevos en el json
+            'status' => 'open', // Corregido el nombre y cambio los nuevos en el json
             'price' => $this->calculatePrice($request->input('priority')),
             'created_at' => now()->format('Y-m-d H:i:s'),
         ];  
